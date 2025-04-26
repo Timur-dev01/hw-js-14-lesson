@@ -300,7 +300,7 @@ for(let car of cars){
   carPrice.push(car.price)
 }
 let cheapCar = Math.min(...carPrice)
-console.log("Самая дешевая машина",maxPrice);
+console.log("Самая дешевая машина",cheapCar);
 
 
 
@@ -318,4 +318,4 @@ console.log("Самая дешевая машина",maxPrice);
 
 //Второй метод 
 let expensiveCar = Math.max(...carPrice)
-console.log("Самая дорогая машина",maxPrice);
+console.log("Самая дорогая машина",expensiveCar);
